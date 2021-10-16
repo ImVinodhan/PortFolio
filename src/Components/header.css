@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  top:0;
+  position: sticky;
+  z-index: 100;
+}
+.header_left {
+  flex: 0.4;
+}
+.header_left h1 {
+  text-align: center;
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 80;
+  padding: 17px 0;
+  letter-spacing: 1px;
+}
+.header_left h1 span {
+  color: #f64c08;
+}
+
+.header_right {
+  display: flex;
+  flex: 0.6;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header_right a h4 {
+  font-family: "Crete Round", serif;
+  font-weight: 80;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  letter-spacing: 1px;
+}
+.header_right a h4:hover {
+  transform: scale(1.09);
+  background-color: #f64c08;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  font-family: "Crete Round", serif;
+  font-size: 18px;
+}
+.join {
+  background-color: #f64c08;
+  padding: 7px 18px;
+  border-radius: 3px;
+}

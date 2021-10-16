@@ -1,0 +1,35 @@
+.project > img{
+    width: 300px;
+    height:179px;
+ }
+.colorForLink{
+    text-decoration: none;
+    width: 300px;
+    height:179px;
+    margin:10px;
+  }
+.project{
+    width: 300px;
+    height:179px;
+    margin:20px;
+    margin-left: 114px;
+    transition: transform 100ms ease-in; 
+}
+.project:hover{
+    color:white;
+    background-color: #f64c08;
+    transform:scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.project_des{
+    padding: 50px;
+}
+.project_des > h4{
+    padding-bottom: 10px;
+}
+.project_des > p{
+    font-size:13px;
+}
